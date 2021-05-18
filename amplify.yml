@@ -10,7 +10,7 @@ frontend:
   phases:
     preBuild:
       commands:
-        - npm ci
+        - npm i express
     build:
       commands: node src
   artifacts:
