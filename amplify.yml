@@ -8,16 +8,12 @@ backend:
         - amplifyPush --simple
 frontend:
   phases:
-    preBuild:
-      commands:
-        - npm i express
     build:
-      commands: node src
+      commands: []
   artifacts:
     # IMPORTANT - Please verify your build output directory
     baseDirectory: /
     files:
       - '**/*'
   cache:
-    paths:
-      - node_modules/**/*
+    paths: []`
