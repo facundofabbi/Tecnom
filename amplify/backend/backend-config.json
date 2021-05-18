@@ -1,6 +1,6 @@
 {
   "auth": {
-    "proyectonode3e2f1599": {
+    "proyectonode584c7c4a": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
