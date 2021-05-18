@@ -1,7 +1,10 @@
+import Amplify from 'aws-amplify'
+import config from './aws-exports'
+
 const express = require('express');
 const app=express();
 const path= require('path');
-
+Amplify.configure(config)
 
 app.set('port', 4000)
 
