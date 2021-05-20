@@ -1,1 +1,1 @@
-# Tecnomxfgjtjtdgfdjgzzdgjhgjzdgj
+# Tecnom
